@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
        console.log(singleOption);
     }
     
-    
     console.log('zadanie3 ________________________________________');
      
     var ex3 = document.querySelector('div.exercise.ex3');
@@ -86,7 +85,41 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     
+    console.log('zadanie5 ________________________________________');
+   var ex5 = document.querySelector('div.exercise.ex5');
+   console.log(ex5);
+    
+    var ulMenu = ex5.querySelector('div ul');
+    ulMenu.classList.add('menu');
+    var allLi = ex5.querySelectorAll('li');
+    for(var i = 0; i < allLi.length; i++){
+        allLi[i].classList.add('menuElement');
+    }
+//    var firstLi = ex5.querySelector('li:first-of-type');
+//    firstLi.classList.remove('error');
+    
+    var allError = document.querySelectorAll('.error');
+    for(var i = 0; i < allError.length; i++){
+        allError[i].classList.remove('error');
+    }
     
     
+    console.log('zadanie6 ________________________________________');
     
+    
+    var ex6 = document.querySelector('div.exercise.ex6');
+    console.log(ex6);
+    
+    var li = ex6.querySelectorAll('li');
+    console.log(li);
+//    1)
+//    for(var i = 0; i < li.length; i++){
+//        li[i].dataset.id = i;
+//        console.log(li[i]);
+//    }
+//    2)
+    for (var i = 0; i < li.length; i++){
+        li[i].setAttribute('data-id', i);
+        console.log(li[i]);
+    }
 });
