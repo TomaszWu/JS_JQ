@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     var chromeImage = ex3.querySelector('div.chrome');
-    chromeImage.setAttribute('width', '');
     chromeImage.style.width = '100px';
     var chromeHref = ex3.querySelector('a');
     chromeHref.innerHTML = 'Chrome';
@@ -83,7 +82,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var lastLi = ex4.querySelector('#fav_meal');
     lastLi.innerHTML = 'raw ham';
     
+    var test = ex4.querySelector('li:nth-of-type(2) span');
     
+    console.log(test.outerHTML);
     
     console.log('zadanie5 ________________________________________');
    var ex5 = document.querySelector('div.exercise.ex5');
@@ -123,3 +124,4 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(li[i]);
     }
 });
+

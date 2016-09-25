@@ -3,7 +3,8 @@
  * Prześledź krok po kroku każdą linijkę kodu. Każdą!
  * Spróbuj napisać komentarze dla każdej z linijek kodu
  */
-
+// sort sortuje stringi, da druga sprwdza czy a jest większe od b. 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 //Twój komentarz ...
 function sortArray() {
 

@@ -3,6 +3,14 @@
    border:1px solid purple;
 }
 
+.redLinks {
+    color: red;
+}
+
+
+.biggerFont{
+    font-size:40px;
+}
 
 /*Style do zadania 3*/
 .colorText {
@@ -10,6 +18,7 @@
 }
 .backgroundElement {
   background-color: yellow;
+  
 }
 
 /*Style do zadania 5 */
