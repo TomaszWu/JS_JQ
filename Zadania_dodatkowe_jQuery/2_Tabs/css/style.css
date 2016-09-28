@@ -1,6 +1,5 @@
 .tabs ul{
     list-style: none;
-    padding: 0;
 }
 
 .tabs li{
@@ -13,4 +12,5 @@
 
 .tabs div{
     display: none;
+    color: red;
 }
