@@ -5,10 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     var button = document.querySelector('.button');
-    var allLi = document.querySelectorAll('.list')
-    console.log(button);
+    var allLi = document.querySelectorAll('ul.list li');
     
     button.addEventListener('click', function(){
-        for( var i =0, i < )
+        for( var i =0; i < allLi.length; i++ ){
+            var liToDelete = allLi[i];
+            liToDelete.parentNode.removeChild(liToDelete);
+            
+        }
     });
 });
