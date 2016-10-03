@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             divToHide[i].style.visibility = 'hidden';
 
         }
-    }
+    } 
 
     displayNoneAll();
 
