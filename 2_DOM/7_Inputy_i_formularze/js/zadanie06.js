@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if(checkScores(firstTeamScore.value, secondTeamScore.value)){
             alert('Proszę podać poprawne wyniki!');
             event.preventDefault();
-        }
+        } 
         
         var newTr = document.createElement('tr');
         var newTdFirstTeam = document.createElement('td');
