@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var input = document.getElementById('taskInput');
     var addTaskButton = document.getElementById('addTaskButton');
     var removeButton = document.getElementById('removeFinishedTasksButton');
-
-
+    
 
 
     document.addEventListener('click', function (event) {
+        
 
         if (event.target.innerHTML == 'Complete') {
             event.target.parentElement.classList.toggle('red');
@@ -53,12 +53,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
     input.value = '';
+    
+    
     });
     
     
     function checkTheLenght() {
         var spanToFillIn = document.getElementById('counter');
-        var allLi = document.querySelectorAll('#taskList li ');
+        var allLi = document.querySelectorAll('#taskList li button:last-child:not(.done)');
         spanToFillIn.innerHTML = allLi.length;
 
     }
